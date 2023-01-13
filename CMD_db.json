@@ -1,0 +1,146 @@
+{
+  "signup": [
+    {
+      "name": "Shilratna Chawhan",
+      "email": "shilratna516@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "ashish Dubey",
+      "email": "ashish123@gmail.com",
+      "password": "Asd123@",
+      "id": 2
+    }
+  ],
+  "vitals": [
+    {
+      "id": 1,
+      "temperature": 10,
+      "diabetes": 10,
+      "respiration_rate": 10,
+      "ecg": 10
+    }
+  ],
+  "test": [
+    {
+      "testId": 1,
+      "testName": "BP"
+    }
+  ],
+  "prescriptions": {
+    "prescriptionId": 1,
+    "medicineName": "saradon",
+    "duration": 1,
+    "medicineCycle": "2",
+    "take_With_Food": true,
+    "description": "take medicine"
+  },
+  "comment": [
+    {
+      "id": 1,
+      "comment_name": "good"
+    }
+  ],
+
+  "appointments": [
+    {
+      "id": 1,
+      "issue": "fever",
+      "date": "26-12-2022",
+      "time": "11:12 AM",
+      "status": "Accepted",
+      "name": "sindhuja",
+      "age": 22,
+      "patientId": 1
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendationId": 1,
+      "doctor": {
+        "id": 1,
+        "name": "shilratna",
+        "mobileNumber": "909642132",
+        "mailId": "c@gmail.com",
+        "npi": "12",
+        "pracLocation": "bangaore",
+        "specialist": "heart",
+        "imageName": "name"
+      }
+    }
+  ],
+  "pID_appointments":[
+    [
+      {
+        "id": 1,
+        "issue": "fever",
+        "date": "26-12-2022",
+        "time": "11:12 AM",
+        "status": "Accepted",
+        "name": "sindhuja",
+        "age": 22,
+        "patientId": 1
+      }
+    ]
+  ],
+  "aID_patients":[
+    {
+      "patientId": 1,
+      "patientName": "vishal",
+      "patientPhone": "9878985462",
+      "patientLocation": "bangalore",
+      "patientImageUrl": "string",
+      "patientAge": 22,
+      "patientMail": "vishal@gmail.com",
+      "patientBloodgroup": "B +ve",
+      "patientHeight": 5,
+      "patientGender": "M",
+      "title": "Mr",
+      "patientDOB": "2000-02-05",
+      "allergie": "nil",
+      "activeIssue": "fever",
+      "medicalProblem": "fever"
+    }
+  ],
+  "feedback":[
+    {
+      "id": 1,
+      "q1": "how are you",
+      "q2": "how was your health",
+      "q3": "tinnava",
+      "q4": "champesta",
+      "comment": "good "
+    }
+  ],
+
+
+  "symptoms":[
+    {
+      "symptomId": 1,
+      "symptomName": "feaver",
+      "reading": "yes",
+      "doctorname": "shilratna"
+    }
+  ],
+
+  "patients":[
+    {
+      "patientId": 1,
+      "patientName": "vishal",
+      "patientPhone": "9878985462",
+      "patientLocation": "bangalore",
+      "patientImageUrl": "string",
+      "patientAge": 22,
+      "patientMail": "vishal@gmail.com",
+      "patientBloodgroup": "B +ve",
+      "patientHeight": 5,
+      "patientGender": "M",
+      "title": "Mr",
+      "patientDOB": "2000-02-05",
+      "allergie": "nil",
+      "activeIssue": "fever",
+      "medicalProblem": "fever"
+    }
+  ]
+}
